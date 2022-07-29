@@ -1,10 +1,5 @@
 [
     {
-        "name": "Newfunc",
-        "private": false,
-        "disable_arg_logs": true
-    },
-    {
         "name": "Test",
         "private": false,
         "disable_arg_logs": true
@@ -15,6 +10,16 @@
     },
     {
         "name": "NewestFunc",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "Newfunc",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "test",
         "private": false,
         "disable_arg_logs": true
     }
