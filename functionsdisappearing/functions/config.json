@@ -1,12 +1,8 @@
 [
     {
-        "name": "Test",
+        "name": "test",
         "private": false,
         "disable_arg_logs": true
-    },
-    {
-        "name": "myFunc",
-        "private": true
     },
     {
         "name": "NewestFunc",
@@ -19,7 +15,16 @@
         "disable_arg_logs": true
     },
     {
-        "name": "test",
+        "name": "Test",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "myFunc",
+        "private": true
+    },
+    {
+        "name": "MyNewEndpointFunc",
         "private": false,
         "disable_arg_logs": true
     }
