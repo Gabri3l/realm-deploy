@@ -1,0 +1,17 @@
+{
+    "id": "62e3e835689c0184048d520f",
+    "name": "Test",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/12 * * * *",
+        "skip_catchup_events": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "myFunc"
+            }
+        }
+    }
+}
