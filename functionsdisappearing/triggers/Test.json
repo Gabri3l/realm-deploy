@@ -3,10 +3,10 @@
     "name": "Test",
     "type": "SCHEDULED",
     "config": {
-        "schedule": "*/12 * * * *",
+        "schedule": "* * * * *",
         "skip_catchup_events": false
     },
-    "disabled": true,
+    "disabled": false,
     "event_processors": {
         "FUNCTION": {
             "config": {
