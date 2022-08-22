@@ -1,0 +1,26 @@
+{
+    "name": "WillFailLF",
+    "log_types": [
+        "auth",
+        "endpoint",
+        "function",
+        "graphql",
+        "push",
+        "schema",
+        "service",
+        "sync",
+        "trigger"
+    ],
+    "log_statuses": [
+        "error",
+        "success"
+    ],
+    "policy": {
+        "type": "single"
+    },
+    "action": {
+        "type": "function",
+        "name": "test"
+    },
+    "disabled": false
+}
